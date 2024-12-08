@@ -1,0 +1,15 @@
+fill(80, 204, 55);
+rect(100, 0, 200, 400);
+
+public void draw() {
+    int numCircles = 6;
+    for (int i = numCircles; i > 1; i--) {
+        int radius = i * 7;
+        if (mouseX > 100 && mouseX < 300) {
+            fill(255, 255, 255);
+        } else {
+            fill(80, 204, 55);
+        }
+        ellipse(mouseX, mouseY, radius, radius);
+    }
+}

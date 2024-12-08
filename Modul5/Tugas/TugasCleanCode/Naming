@@ -1,0 +1,8 @@
+class User {
+    protected String username; // username
+    protected String password; // password
+
+    public void saveUserCredentials(String username, String password) {
+        // isi kode untuk menyimpan kredensial pengguna
+    }
+}
